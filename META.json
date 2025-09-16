@@ -1,0 +1,71 @@
+{
+  "category": "intrusion-prevention",
+  "created_date": "2025-09-15T22:48:57.557921",
+  "default_ports": [
+    1,
+    10,
+    34,
+    56,
+    80,
+    443,
+    9191,
+    12345
+  ],
+  "dependencies": [
+    "python3",
+    "iptables",
+    "whois"
+  ],
+  "description": "Fail2ban is a free and open-source intrusion prevention software framework that protects servers from brute-force attacks. Written in Python, it monitors log files and bans IP addresses that show malicious signs such as too many password failures or seeking exploits. It serves as a powerful FOSS alternative to commercial security solutions like Cloudflare Rate Limiting, AWS WAF, or proprietary IPS systems, providing enterprise-grade protection without licensing costs or vendor lock-in.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/intrusion-prevention/fail2ban",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/intrusion-prevention/fail2ban",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:57.557940",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "fail2ban",
+  "repository_url": "https://github.com/howtomgr/fail2ban",
+  "spec_version": "2.0",
+  "subcategory": "intrusion-prevention",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "intrusion-prevention",
+    "observability",
+    "data-storage",
+    "web-services",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "Fail2ban Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/intrusion-prevention/fail2ban"
+}
